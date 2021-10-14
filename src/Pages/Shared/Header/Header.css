@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+.header-logo{
+    flex: 0.2;
+    text-align: left;
+}
+.header-logo img{
+    height: 25px;
+}
+.header-link{
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.link{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #2d2d2d;
+}
+.shopping-cart-icon{
+    font-size: 18px !important;
+    margin-top: 4px;
+}
+.signup{
+    background-color: #ff4165;
+    color: white;
+    padding: 4px 9px;
+    border-radius: 50px;
+    padding-bottom: 7px;
+}
